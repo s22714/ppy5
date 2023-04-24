@@ -7,8 +7,8 @@ def send_email(users):
         subject = "Grade"
         grade = user["ocena"]
         body = f"Your grade: {grade}"
-        sender = "pythonpjatktest@gmail.com"
-        password = "wvqwrqwixpgbvkzt"
+        sender = ""
+        password = ""
 
         msg = MIMEText(body)
         msg['Subject'] = subject
